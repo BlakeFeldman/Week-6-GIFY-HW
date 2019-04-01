@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!-- Format a Header -->
+
+    <title>Starks of Giphy</title>
+    
+<!-- Link Bootstrap -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Link Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+    <!-- Link CSS Stylesheet -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+	
+<!-- Create a Div Container to Hold the Buttons -->
+
+	<div class="jumbotron">
+		<div class="container">
+
+			<h1>Starks of Giphy</h1>
+    
+        </div>
+    
+    </div>		
+    
+ <!-- ID Selector Buttons for JQuery references  -->
+<div id="gifButtonsView" class="container">
+</div>
+
+<!-- Container for Gifs -->
+
+<div class="container">
+<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+
+    <!-- gifs -->
+
+    <div id="gifsView">
+    </div>	
+</div>
+
+<!-- Form for Submitting additional Gifs -->
+
+<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+ <form id="gifForm" role="form"> 
+ </div>
+ </div>
+
+ 
+ 	<div class="form-group">
+ 		<label for="topicInput"><h3>Add you Favorite Stark!</h3> </label>
+ 		<input type="text" id="topicInput">
+ 	</div>
+ 	<input id="addGif" type="submit" value="Add Your Stark" class="btn btn-primary">
+
+ 	<input id="removeGif" type="submit" value="Remove last Stark" class="btn btn-primary">	
+ </form>
+
+ 
+
+<!-- Script Link to JQuery -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>	
+
+<!-- Script Link to Javascript -->
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+<!-- Link MP3 file -->
+<audio controls autoplay>
+  <source src="assets/sound/got.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
